@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
-	<classpathentry kind="lib" path="lib/AndAR.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/AndObjViewer/lib/AndAR_doc.zip!/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="lib" path="/AndAR/bin/andar.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/AndAR"/>
+	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
