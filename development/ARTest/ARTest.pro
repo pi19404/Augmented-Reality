@@ -59,7 +59,8 @@ SOURCES += main.cpp \
     ../../ARToolKit/lib/SRC/AR/arGetMarkerInfo.c \
     ../../ARToolKit/lib/SRC/AR/arGetCode.c \
     ../../ARToolKit/lib/SRC/AR/arDetectMarker2.c \
-    ../../ARToolKit/lib/SRC/AR/arDetectMarker.c
+    ../../ARToolKit/lib/SRC/AR/arDetectMarker.c \
+    main1.cpp
 
 OTHER_FILES += \
     ../../ARToolKit/lib/SRC/VideoLinuxV4L/ccvt_i386.S
